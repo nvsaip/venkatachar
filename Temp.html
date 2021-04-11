@@ -1,0 +1,915 @@
+<!--
+%%[
+Set @Tracking_Code= "%%__AdditionalEmailAttribute1%%"
+Set @Attribute1= "%%__AdditionalEmailAttribute2%%"
+IF @Attribute1 == "" THEN
+set @Attribute1 = 'Unknown'
+ENDIF
+Set @StoreNo1 = [STORE_1]
+Set @StoreNo2 = [STORE_2]
+Set @StoreNo3 = [STORE_3]
+]%%
+-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>BOOTS</title>
+<style type="text/css">
+/* Forces Hotmail to display emails at full width */
+a {
+	color: #333333;
+}
+a:visited {
+	color: #333333;
+}
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+.ReadMsgBody {
+	width: 100%;
+}
+/*Hotmail table centering fix*/
+.ExternalClass {
+	width: 100%;
+}
+/* Forces Hotmail/Outlook to display normal line spacing*/
+.ExternalClass * {
+	line-height: 100%;
+}
+/*Yahoo paragraph fix*/
+p {
+	margin: 1em 0;
+}
+/*This resolves the Outlook 07, 10, and Gmail td padding issue fix*/
+table, table td {
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+	border-collapse: collapse;
+}
+/*viewport width scaling for all devices*/
+@-ms-viewport {
+width: device-width;
+}
+/*This resolves the issue when iphone puts links on dates, etc.*/
+.appleLinks {
+	color: inherit;
+	text-decoration: none;
+}
+.appleLinks a {
+	color: inherit;
+	text-decoration: none;
+}
+*[class="onlymob"] {
+	display: none;
+}
+
+/*Mobile - Media Queries Starts - 320X480 Screen*/
+@media screen and (max-width: 600px) {
+*[class=container] {
+	width: 320px !important;
+	height: auto;
+	margin: 0 auto;
+}
+/*Do not show in mobiles*/
+*[class=nomobile] {
+	display: none !important;
+}
+/*Shows in mobiles*/
+*[class=show] {
+	display: block !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: visible !important;
+	width: auto !important;
+	max-height: inherit !important;
+	font-size: inherit !important;
+}
+*[class=border_none] {
+	border: none !important;
+}
+*[class=Add_Card_box] {
+	float: left !important;
+	width: 100% !important;
+	border-top: #cccccc 2px solid;
+}
+*[class=Card_box_top_bottom_padd] {
+	padding-top: 13px !important;
+	padding-bottom: 13px !important;
+}
+*[class=Card_box_top_bottom_padd2] {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+*[ class="border_radius_none"] {
+	border-radius: none !important;
+}
+.Logo {
+	width: 105px !important;
+	height: 65px !important;
+}
+*[class=Logo_Right_Image] {
+	padding-left: 6px !important;
+}
+*[class=Logo_Right_Image] img {
+	width: 230px !important;
+	height: 32px !important;
+}
+*[class=Logo_top_bottom_padd] {
+	padding: 17px 0px 10px 0px !important;
+}
+*[class=FullWidth] {
+	width: 100% !important;
+}
+table[class=Navigation_Table] {
+	margin-top: -6px;
+	background-image: url(http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140506_Boots_03.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 320px 8px;
+	width: 100% !important;
+	background-color: #eef6fc !important;
+}
+*[class=Nav_Link] {
+	float: left !important;
+	width: 270px !important;
+	height: 55px !important;
+	vertical-align: middle;
+	padding: 0 20px 0 10px !important;
+	margin: 0 10px 0 10px !important;
+	border-top: #cccccc 1px solid !important;
+	background-image: url(http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140506_Boots_01.jpg) !important;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 24px 15px;
+	font-weight: normal !important;
+	line-height: 55px;
+}
+*[class=Nav_Link] a {
+	display: block !important;
+}
+*[class=Nav_Link_Last] {
+	float: left !important;
+	width: 270px !important;
+	height: 55px !important;
+	vertical-align: middle;
+	padding: 0 20px 0 10px !important;
+	margin: 0 10px 0 10px !important;
+	border-top: #cccccc 1px solid !important;
+	background-image: url(http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140506_Boots_01.jpg) !important;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 24px 15px;
+	font-weight: normal !important;
+	line-height: 55px;
+}
+*[class=Nav_Link_Last] a {
+	display: block !important;
+}
+*[class=nopadding] {
+	padding: 0px !important;
+}
+*[class=padding_lr_0] {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+*[class="padding_top_bottom_10"] {
+	padding-bottom: 10px !important;
+	padding-top: 10px !important;
+	padding-left: 0px !important;
+}
+*[class=border_none] {
+	border: none !important;
+}
+*[class=border_radius_none] {
+	border-radius: 0px !important;
+}
+*[class=drop1] {
+	display: block !important;
+	padding: 0px !important;
+}
+*[class=drop2] {
+	width: 100% !important;
+	float: left !important;
+	padding-bottom: 15px !important;
+	background: url(http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/3/20140102_TreatYourself_Div2.jpg) no-repeat !important;
+	background-position: bottom !important;
+}
+*[class=social_mid_icon_padd] {
+	padding: 0 40px 0 40px;
+}
+img[class=social_icon] {
+	width: 44px !important;
+	height: 44px !important;
+}
+*[class=social_text] {
+	display: block !important;
+	padding: 15px 0 0 0 !important;
+}
+*[class=align_center] {
+	alignment-adjust: central !important;
+}
+*[class=drop] {
+	width: 100% !important;
+	float: left !important;
+}
+*[class=font_18] {
+	font-size: 18px !important;
+}
+*[class=font_9] {
+	font-size: 9px !important;
+}
+.font15 {
+	font-size: 15px !important;
+}
+*[class="drop"] {
+	float: left !important;
+	width: 100% !important;
+	height: auto !important;
+}
+*[class="drop_padding_top_10"] {
+	float: left !important;
+	padding-top: 10px !important;
+}
+*[class="font13"] {
+	font-size: 13px !important;
+}
+*[class="fluidimg"] {
+	width: 100% !important;
+	height: auto !important;
+}
+table[class="table_cellspacing_0"] {
+	width: 320px !important;
+	border-collapse: collapse;
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+	border-bottom: 1px solid #cccccc !important;
+	border-top: 1px solid #cccccc !important;
+	border-right: 0px !important;
+	border-left: 0px !important;
+}
+*[class="padding_top_bottom_10"] {
+	padding-bottom: 10px !important;
+	padding-top: 10px !important;
+	padding-left: 0px !important;
+}
+*[class="resize_img_25"] {
+	width: 25px !important;
+	height: 25px !important;
+}
+*[class="padding_l_r_20"] {
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+}
+*[class="padding_top_20"] {
+	padding-top: 20px !important;
+}
+*[class="padding_top_14"] {
+	padding-top: 14px !important;
+}
+*[class="resize_to_128"] {
+	width: 128px !important;
+	height: auto !important;
+	padding-bottom: 10px !important;
+}
+*[class="padding_bottom_10"] {
+	padding-bottom: 10px !important;
+}
+*[class="resize_width_30"] {
+	width: 30px !important;
+}
+*[class="resize_to_320"] {
+	width: 320px !important;
+	height: auto !important;
+}
+*[class="font30"] {
+	font-size: 30px !important;
+}
+*[class="font22"] {
+	font-size: 22px !important;
+}
+.font12 {
+	font-size: 12px !important;
+}
+*[class="resize_to_280"] {
+	width: 280px !important;
+}
+/*-- DropDown css Start--*/
+*[id="nav"] {
+	display: none;
+	z-index: 1000;
+}
+*[id="nav"] a {
+	display: block;
+}
+*[id="nav"]:target {
+	display: table-cell;
+	z-index: 1001;
+}
+*[id="nav"]:target .back {
+	width: 80px !important;
+	height: 45px !important;
+	display: block !important;
+	max-width: inherit !important;
+	max-height: inherit !important;
+	float: none !important;
+	font-size: 50px !important;
+	border: 0;
+	right: 118px;
+	top: 5px;
+	position: absolute;
+}
+/*-- DropDown css End--*/
+/*-- new class Added--*/
+*[class=Bg_color] {
+	background-color: #cccccc 1px solid;
+	height: 1px !important;
+}
+*[class=resize_20] {
+	width: 20px !important;
+}
+div[class=mobileshow] {
+	top: -64px;
+	left: -10px !important;
+	display: block !important;
+	position: relative !important;
+	margin-bottom: -14px;
+}
+a[class="mobileshow"], a[class="mobilehide"] {
+	display: block !important;
+	position: absolute;
+}
+div[class="menu"] {
+	display: none;
+	margin-top: 85px !important;
+	margin-bottom: -44px;
+}
+a.mobileshow:hover {
+	visibility: hidden;
+}
+a.mobileshow:hover + .menu {
+	margin-top: 76px !important;
+	width: 320px;
+	padding: 0;
+	margin-left: -172px;
+	display: block !important;
+	position: relative;
+}
+.float_r {
+	float: right;
+}
+.float_store {
+	float: right;
+	margin-right: 3px;
+}
+/*=====================ADDITION TO CONTENT AREAS=====================*/
+*[class="onlymob"] {
+	display: block !important;
+}
+*[class="border_top_mob"] {
+	border-top: 2px solid #cccccc !important;
+}
+*[class="resize_to_120"] {
+	width: 120px !important;
+}
+*[class="resize_to_5"] {
+	width: 5px !important;
+}
+*[class="add_padding_15"] {
+	padding-left: 25px !important;
+	padding-right: 20px !important;
+	padding-top: 12px !important;
+	padding-bottom: 10px !important;
+}
+*[class="resize_to_14"] {
+	width: 14px !important;
+	height: auto !important;
+}
+*[class="display_block"] {
+	display: block !important;
+}
+*[class="resize_h_to_30"] {
+	height: 30px !important;
+}
+*[class="resize_h_to_22"] {
+	height: 22px !important;
+}
+*[class="resize_w_to_10"] {
+	width: 10px !important;
+}
+*[class="resize_w_to_20"] {
+	width: 20px !important;
+}
+*[class="resize_w_to_280"] {
+	width: 280px !important;
+	height: auto !important;
+}
+*[class="border_left_none"] {
+	border-left: none !important;
+}
+*[class="add_border_bottom"] {
+	background-image: url('http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140604_Boots_Events_09.jpg');
+	background-repeat: no-repeat!important;
+	background-position: left bottom;
+	background-size: 280px 20px;
+	padding-bottom: 20px !important;
+}
+*[class="resize_to_139"] {
+	width: 139px !important;
+	height: auto !important;
+}
+*[class="resizeh20"] {
+	height: 20px !important;
+}
+/*Social Icon Classes*/
+*[yahoo] .social_icon_resize {
+	width: 32px !important;
+	height: 32px !important;
+}
+*[yahoo] .social_twitter_block2 {
+	padding-left: 13px !important;
+}
+*[yahoo] .social_youtube_block2 {
+	padding-left: 13px !important;
+}
+*[yahoo] .social_instaram_block2 {
+	padding-left: 13px !important;
+}
+*[yahoo] .social_pinterest_block2 {
+	padding-left: 13px !important;
+}
+*[yahoo] .padd_lr_15 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+*[yahoo] .social_text2 {
+	display: block !important;
+	padding: 10px 0 0 0 !important;
+}
+*[yahoo] .noborder_trl {
+	border-top: none !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+*[class=font_11] {
+	font-size: 11px !important;
+}
+/*Social Icon Classes*/
+*[yahoo] .no_bg {
+	background: none !important;
+	width: 100% !important;
+	height: auto !important;
+}
+/*20170523_Events_Mothers_Day_Points_Event_Email_Reminder Classes*/
+.padd_l_r_35 {
+	padding-left: 36px !important;
+	padding-right: 36px !important;
+}
+.height_5 {
+	height: 5px !important;
+}
+.height_10 {
+	height: 10px !important;
+}
+.height_40 {
+	height: 40px !important;
+}
+.font_14 {
+	font-size: 14px !important;
+}
+.font17 {
+	font-size: 17px !important;
+}
+.font_8 {
+	font-size: 8px !important;
+}
+.padd_lr_0 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.lineheight16 {
+	line-height: 16px !important;
+}
+.lineheight17 {
+	line-height: 17px !important;
+}
+.padd_tb_12 {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.height_15 {
+	height: 15px !important;
+}
+.padding_bottom_10 {
+	padding-bottom: 10px !important;
+}
+.height_20 {
+	height: 20px !important;
+}
+.padd_l_r_30 {
+	padding-right: 28px !important;
+	padding-left: 28px !important;
+}
+.height_30 {
+	height: 32px !important;
+}
+.height_28 {
+	height: 28px !important;
+}
+.padd_lr_20 {
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+}
+.padd_lr_15 {
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+}
+.padd_tb_20 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+.padd_lr_10 {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.padd_b_10 {
+	padding-bottom: 10px !important;
+}
+.padd_t_0 {
+	padding-top: 0px !important;
+}
+}
+</style>
+%%[If APP_DOWNLOADED == "N" Then]%%
+<style type="text/css">
+@media screen and (max-width: 600px) {
+*[id="nav"]:target .back {
+	width: 80px !important;
+	height: 45px !important;
+	display: block !important;
+	max-width: inherit !important;
+	max-height: inherit !important;
+	float: none !important;
+	font-size: 50px !important;
+	border: 0;
+	right: 118px;
+	top: 83px;
+	position: absolute;
+}
+}
+</style>
+%%[Else]%%
+<style type="text/css">
+@media screen and (max-width: 600px) {
+*[id="nav"]:target .back {
+	width: 80px !important;
+	height: 45px !important;
+	display: block !important;
+	max-width: inherit !important;
+	max-height: inherit !important;
+	float: none !important;
+	font-size: 50px !important;
+	border: 0;
+	right: 118px;
+	top: 5px;
+	position: absolute;
+}
+}
+</style>
+%%[EndIF]%%
+<!--[if gte mso 9]>
+<style>
+.outlookfix{font-size:0%; line-height:0;}
+</style>
+<![endif]-->
+</head>
+<body bgcolor="#f5f5f5" style="margin: 0px; padding:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust: none;" yahoo="fix">
+<!-- ET Tracking Code-->
+<custom name="opencounter" type="tracking">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f5f5f5">
+  <tr>
+    <td align="center" valign="top"> %%[If APP_DOWNLOADED == "N" Then]%% 
+      <!--[if !mso]><!-->
+      
+      <div class="show" style="font-size: 0; max-height: 0; overflow: hidden; display: none; width:0">
+        <table width="320" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f6f8">
+          <tr>
+            <td align="left" valign="top" style="padding:15px 18px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif, Georgia; color:#024089; font-size:14px; font-weight:bold; line-height:16px;"><a href="http://www.boots.com/en/_1497000/%%=v(@Tracking_Code)=%%" alias="Download the Boots App" target="_blank" style="color:#024089; text-decoration: none;"><span style="color:#024089;">Download the<br>
+                          Boots App now</span></a></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif, Georgia; color:#333333; font-size:9px; line-height:16px;">for personalised offers and more</td>
+                      </tr>
+                    </table></td>
+                  <td align="right" valign="middle"><table border="0" cellspacing="0" cellpadding="0" align="right">
+                      <tr>
+                        <td align="left" valign="top" style="padding-right:4px;"><a href="https://itunes.apple.com/gb/app/Boots/id880993267?mt-8&" alias="App Store" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_App_Store.png" width="75" height="22" border="0" alt="Download on the App Store" title="Download on the App Store" style="display: block;font-family: Arial, Helvetica, sans-serif, Georgia; font-size:9px; color:#000001;"/></a></td>
+                        <td align="left" valign="top"><a href="https://play.google.com/store/apps/details?id=com.boots.flagship.android&" alias="Google play" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_App_GP.png" width="62" height="22" border="0" alt="ANDROID APP ON Google play" title="ANDROID APP ON Google play" style="display: block;font-family: Arial, Helvetica, sans-serif, Georgia; font-size:9px; color:#000001;"/></a></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+      </div>
+      
+      <!--<![endif]--> 
+      %%[EndIf]%%
+      <table class="container" width="640" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+        <tr>
+          <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="left" valign="top"
+ style="padding-top:20px;" class="padding_top_14"><table width="20%" border="0" cellspacing="0" cellpadding="0" align="left" class="drop">
+                    <tr>
+                      <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" valign="top" style="padding-left:20px;"><a href="http://www.boots.com/%%=v(@Tracking_Code)=%%" alias="Boots - let's feel good" title="Boots - let's feel good" target="_blank" style="text-decoration:none"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140603_Boots_Nivea_logo.jpg" width="114" height="73" alt="Boots - let's feel good" title="Boots - let's feel good" border="0" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none; color:#03408a; font-weight: bold;" class="Logo"></a></td>
+                          </tr>
+                        </table>
+                        
+                        <!--[if !mso]><!-->
+                        
+                        <div class="show" style="font-size: 0; max-height: 0; overflow: hidden; display: none; width:0;">
+                          <div class="mobileshow">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="left" style="margin-right:20px;"><div style="width:32px; border-left:1px solid #cccccc;" class="float_store"><a href="https://www.boots.com/store-locator%%=v(@Tracking_Code)=%%" alias="Store locator" title="" target="_blank" style="text-decoration:none; color:#333333;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140603_Boots_Nivea_09.jpg" width="28" height="38" alt="Store locator" title="Store locator" border="0" style="display:block; color: #03408a; font-size: 5px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" /></a></div>
+                                  <div style="width:42px; border-left:1px solid #cccccc;" class="float_r"><a href="https://www.boots.com/BootsLogonForm%%=v(@Tracking_Code)=%%" alias="My Account - Mobile" title="" target="_blank" style="text-decoration:none; color:#333333;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140603_Boots_Nivea_07.jpg" width="42" height="38" alt="My Account" title="My Account" border="0" style="display:block; color: #03408a; font-size: 5px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"/></a></div>
+                                  <div style="width:30px; border-left:1px solid #cccccc;" class="float_r"><a href="http://www.boots.com/en/Help/%%=v(@Tracking_Code)=%%" alias="Help" title="" target="_blank" style="text-decoration:none; color:#333333;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140603_Boots_Nivea_05.jpg" width="30" height="38" alt="Help" title="Help" border="0" style="display:block; color: #03408a; font-size: 5px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"/></a></div>
+                                  <div style="width:30px;" class="float_r"><a href="#nav" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140603_Boots_Nivea_03.jpg" width="30" height="38" alt="Nav Menu" title="Nav Menu" border="0" style="display:block; color: #03408a; font-size: 5px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"/></a> </div>
+                                  <div style="clear:both;"></div></td>
+                              </tr>
+                            </table>
+                          </div>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" id="nav">
+                            <tr>
+                              <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" class="Navigation_Table">
+                                  <tr>
+                                    <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#00267f; font-weight:bold; padding-right:14px; border:none !important;" class="Nav_Link"><a href="http://www.boots.com/%%=v(@Tracking_Code)=%%" alias="boots.com" title="boots.com" target="_blank" style="text-decoration:none; color:#00267f;"><span style="color:#00267f;">boots.com</span></a></td>
+                                    <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#00267f; font-weight:bold;padding-right:14px;" class="Nav_Link"><a href="http://www.boots.com/en/Pharmacy-Health/%%=v(@Tracking_Code)=%%" alias="health & pharmacy" title="health & pharmacy" target="_blank" style="text-decoration:none; color:#00267f;"><span style="color:#00267f;">health & pharmacy</span></a></td>
+                                    <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#00267f; font-weight:bold;padding-right:14px;" class="Nav_Link"><a href="http://www.boots.com/toiletries%%=v(@Tracking_Code)=%%" alias="toiletries" title="toiletries" target="_blank" style="text-decoration:none; color:#00267f;"><span style="color:#00267f;">toiletries</span></a></td>
+                                    <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#00267f; font-weight:bold;padding-right:14px;" class="Nav_Link"><a href="http://www.boots.com/beauty%%=v(@Tracking_Code)=%%" alias="beauty & skincare" title="beauty & skincare" target="_blank" style="text-decoration:none; color:#00267f; "><span style="color:#00267f;">beauty & skincare</span></a></td>
+                                    <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#00267f; font-weight:bold;padding-right:14px;" class="Nav_Link"><a href="http://www.boots.com/fragrance%%=v(@Tracking_Code)=%%" alias="fragrance" title="fragrance" target="_blank" style="text-decoration:none; color:#00267f;"><span style="color:#00267f;">fragrance</span></a></td>
+                                    <td class="back" style="display: none; width: 0; max-height: 0; max-width: 0; height: 0; overflow: hidden; float: left; font-size: 0;"><a href="#header" style="text-decoration: none; color: #fff;">&nbsp;</a></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                          </table>
+                        </div>
+                        
+                        <!--<![endif]--> 
+                        <!-- End Mobile Version --></td>
+                    </tr>
+                  </table>
+                  <table width="59%" border="0" cellspacing="0" cellpadding="0" align="right" class="drop">
+                    <tr>
+                      <td width="380" align="right" valign="top" class="Add_Card_box"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="right" valign="top" style="padding-bottom:7px; padding-right:20px;" class="nomobile"><table border="0" cellspacing="0" cellpadding="0" align="right">
+                                <tr>
+                                  <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; padding-right:9px; border-right:#dadada 1px solid;"><a href="https://www.boots.com/BootsLogonForm%%=v(@Tracking_Code)=%%" target="_blank" title="My Account" style="text-decoration:none; color:#333333;" alias="My Account"><span style="color:#333333;">My Account</span></a></td>
+                                  <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; padding-left:10px;"><a href="%%view_email_url%%" alias="View in a web browser" target="_blank" title="View in a web browser" style="text-decoration:none; color:#333333;"><span style="color#333333:;">View in a web browser</span></a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td align="right" valign="top"><!--
+  %%[
+          Set @CardLength = Length(ADVANTAGE_CARD_NUMBER)
+          If @CardLength <=4 Then
+          Set @ADVANTAGE_CARD_NUMBER = 'XXXX'
+          ElseIf @CardLength == 5 Then
+          Set @ADVANTAGE_CARD_NUMBER = Concat( substring(ADVANTAGE_CARD_NUMBER,1,Subtract(@CardLength,4)),'XXXX'))
+          ElseIf @CardLength == 6 Then
+          Set @ADVANTAGE_CARD_NUMBER = Concat( substring(ADVANTAGE_CARD_NUMBER,1,Subtract(@CardLength,4)),'XXXX'))
+          ElseIf @CardLength == 7 Then
+          Set @ADVANTAGE_CARD_NUMBER = Concat( substring(ADVANTAGE_CARD_NUMBER,1,Subtract(@CardLength,4)),'XXXX'))
+          ElseIf @CardLength == 8 Then
+          Set @ADVANTAGE_CARD_NUMBER = Concat( substring(ADVANTAGE_CARD_NUMBER,1,Subtract(@CardLength,4)),'XXXX'))
+          Else
+          Set @ADVANTAGE_CARD_NUMBER = Concat(substring(ADVANTAGE_CARD_NUMBER,Subtract(Length(ADVANTAGE_CARD_NUMBER),8),5),'XXXX'))
+          EndIf
+          ]%%
+										--> 
+                              <!--%%[ Set @PTS_BALANCE_DATE = [PTS_BALANCE_DATE]
+                Set @PTS_BALANCE_DATE = Format(@PTS_BALANCE_DATE,"MM/dd/yyyy") 
+                ]%% --> 
+                              
+                              %%[IF ADVANTAGE_CARD_MEMBER == "N" THEN]%%
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-radius:5px;" bgcolor="#970069" class="border_radius_none">
+                                      <tr>
+                                        <td align="left" valign="top" style="padding-left:8px; padding-right:7px;" class="padding_l_r_20"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="left" valign="top" style="padding-top:6px; padding-bottom:6px;" class="Card_box_top_bottom_padd"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; padding-right:2px;font-size:15px; font-weight:bold;mso-line-height-rule:exactly; line-height:100%; padding-top:2px; padding-bottom:3px;" class="font12"><a href="http://www.boots.com/en/Advantage-Card/%%=v(@Tracking_Code)=%%" alias="Boots Advantage Card" target="_blank" style="text-decoration:none; color:#ffffff;"><span style="color:#ffffff;">Sign up to Boots Advantage Card &rsaquo;</span></a></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; padding-right:2px;font-size:10px;mso-line-height-rule:exactly; line-height:12px;">Collect 4 points for every &#163;1 you spend every time you shop!</td>
+                                                        </tr>
+                                                      </table></td>
+                                                    <td width="60" align="left" valign="top"><a href="http://www.boots.com/en/Advantage-Card/%%=v(@Tracking_Code)=%%" target="_blank" alias="Boots - advantage card" title="Boots - advantage card" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/5/20140602_Boots_No7_01.jpg" width="60" height="35" alt="Boots - advantage card" title="Boots - advantage card" border="0" style="display:block;font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold; color:#ffffff;"></a></td>
+                                                  </tr>
+                                                </table></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table></td>
+                                  <td width="19" align="right" valign="top" class="nomobile"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/1/20130731_Boots_056.gif" width="19" height="1" alt="" title="" border="0" style="display:block;"/></td>
+                                </tr>
+                              </table>
+                              %%[ELSE]%%
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                                <tr>
+                                  <td align="right" valign="top" class="drop"><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f1d9e8">
+                                      <tr>
+                                        <td align="left" valign="top" style="padding-left:10px; padding-right:10px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="left" valign="top" style="padding-top:5px; padding-bottom:4px;" class="Card_box_top_bottom_padd2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="left" valign="middle"><table border="0" cellspacing="0" cellpadding="0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #a70069; padding-bottom: 2px;">Boots <span class="display_block"></span> Advantage Card</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #a70069;">account <strong>%%=v(@ADVANTAGE_CARD_NUMBER)=%%</strong>&nbsp;as of <br>
+                                                                %%=v(@PTS_BALANCE_DATE)=%%&nbsp;has</td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table></td>
+                                                      <td align="left" valign="top" width="10" class="resize_to_5"  style="font-size: 0%;">&nbsp;</td>
+                                                      <td align="right" valign="middle"><table border="0" cellspacing="0" cellpadding="0" style="border-radius:5px;" bgcolor="#970069" align="right">
+                                                          <tr>
+                                                            <td align="left" valign="top" style="padding:6px 6px 7px 10px;"><table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                  <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; padding-right:3px;"><span style="font-size:18px; font-weight:bold; line-height:100%;" class="font15"><a href="http://www.boots.com/en/Advantage-Card/%%=v(@Tracking_Code)=%%" alias="Boots - advantage card" target="_blank" style="text-decoration:none; color:#ffffff;"><span style="color:#ffffff;">&#163;%%POINTS_BALANCE%%</span></a></span><br>
+                                                                    <span style="font-size:10px; line-height:100%;" class="font_9">worth of points to spend</span></td>
+                                                                  <td width="48" align="left" valign="middle"><a href="http://www.boots.com/en/Advantage-Card/%%=v(@Tracking_Code)=%%" alias="Boots - advantage card" title="Boots - advantage card" target="_blank" style="text-decoration:none;"><img src="http://image.emails.boots.com/lib/fe8f12717d67017f72/m/5/20140602_Boots_No7_AddCard.png" width="48" height="34" alt="Boots - advantage card" title="Boots - advantage card" border="0" style="display:block;font-family:Arial, Helvetica, sans-serif; font-size:8px; font-weight:bold; color:#ffffff;" class="fluidimg"></a></td>
+                                                                </tr>
+                                                              </table></td>
+                                                          </tr>
+                                                        </table></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                    </table></td>
+                                  <td width="19" align="right" valign="top" class="nomobile"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/1/20130731_Boots_056.gif" width="20" height="1" alt="" title="" border="0" style="display:block;"/></td>
+                                </tr>
+                              </table>
+                              %%[ENDIF]%%</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  
+                  <!-- ADD CARD--></td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" style="padding:17px 20px 20px 20px;" class="nomobile"><table  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="center" valign="top"><table border="0" cellspacing="0" cellpadding="0" class="nomobile">
+                          <tr>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; border-right:1px solid #cccccc; padding-right:18px; padding-left: 0px" class="Nav_Link"><a href="http://www.boots.com/%%=v(@Tracking_Code)=%%" alias="boots.com" title="boots.com" target="_blank" style="text-decoration:none; color:#333333;"><span style="color:#333333;">boots.com</span></a></td>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; padding-right:18px; padding-left:18px; border-right:1px solid #cccccc;" class="Nav_Link"><a href="http://www.boots.com/en/Pharmacy-Health/%%=v(@Tracking_Code)=%%" alias="health & pharmacy" title="health & pharmacy" target="_blank" style="text-decoration:none; color:#333333;"><span style="color:#333333;">health & pharmacy</span></a></td>
+                            <td align="center" valign="top" style="font-size:0%; line-height:100%" width="18">&nbsp;</td>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; padding-right:18px; border-right:1px solid #cccccc;" class="Nav_Link"><a href="http://www.boots.com/toiletries%%=v(@Tracking_Code)=%%" alias="toiletries" title="toiletries" target="_blank" style="text-decoration:none; color:#333333;"><span style="color:#333333;">toiletries</span></a></td>
+                            <td align="center" valign="top" style="font-size:0%; line-height:100%" width="18">&nbsp;</td>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; padding-right:18px; border-right:1px solid #cccccc;" class="Nav_Link"><a href="http://www.boots.com/beauty%%=v(@Tracking_Code)=%%" alias="beauty & skincare" title="beauty & skincare" target="_blank" style="text-decoration:none; color:#333333; "><span style="color:#333333;">beauty & skincare</span></a></td>
+                            <td align="center" valign="top" style="font-size:0%; line-height:100%" width="18">&nbsp;</td>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; padding-right:0px;" class="Nav_Link"><a href="http://www.boots.com/fragrance%%=v(@Tracking_Code)=%%" alias="fragrance" title="fragrance" target="_blank" style="text-decoration:none; color:#333333;"><span style="color:#333333;">fragrance</span></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="padding-left:20px; padding-right:20px;" align="left" valign="top" class="padding_lr_0"><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f6f8">
+                          <tr>
+                            <td align="left" valign="top" style=" padding-top:3px; padding-right:34px; padding-bottom:3px; padding-left:34px;" class="padding_l_r_20"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td align="left" valign="top" class="drop"><table border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto;">
+                                      <tr>
+                                        <td align="left" valign="top"><a href="http://www.boots.com/en/Help/Shopping-with-us/%%=v(@Tracking_Code)=%%" alias="Order & Collect" title="Order & Collect" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/12/20150926_Boots_Order-collect.png" width="40" height="40" border="0" alt="Order &amp; Collect" title="Order &amp; Collect" style="display: block;font-family: Arial, Helvetica, sans-serif, Georgia; font-size:10px; color:#03418a;"></a></td>
+                                        <td align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif, Georgia; font-size:11px; color:#333333; padding-left:8px; line-height:12px;"><a href="http://www.boots.com/en/Help/Shopping-with-us/%%=v(@Tracking_Code)=%%" alias="Order & Collect" title="Order & Collect" target="_blank" style="color:#333333; text-decoration: none;"><span style="color:#333333;"><strong>Free next day collection</strong> from your choice of over 2,200 Boots stores&#94;</span></a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="left" valign="middle" class="nomobile">%%[If APP_DOWNLOADED == "N" Then]%%
+                                    <table width="290" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="left" valign="top" style="padding-left:34px;"><a href="http://www.boots.com/en/_1497000/%%=v(@Tracking_Code)=%%" alias="Download the Boots App" title="Download the Boots App" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_App_01.png" width="25" height="34" border="0" alt="Download the Boots App" title="Download the Boots App" style="display: block; font-family: Arial, Helvetica, sans-serif, Georgia; font-size:10px; color:#03418a;"></a></td>
+                                        <td align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif, Georgia; font-size:11px; color:#333333; padding-left:8px; line-height:12px;"><a href="http://www.boots.com/en/_1497000/%%=v(@Tracking_Code)=%%" alias="Download the Boots App" target="_blank" style="color:#333333; text-decoration: none;"><span style="color:#333333;">Download the <strong>Boots App</strong> for <strong>personalised<br>
+                                          offers</strong> and much more</span></a></td>
+                                      </tr>
+                                    </table>
+                                    %%[EndIf]%%</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr class="outlookfix">
+                <td align="left" valign="top"><custom type="content" name="Block_01"></td>
+              </tr>
+              <tr class="outlookfix">
+                <td align="center" valign="top"><custom type="content" name="Intro_block"></td>
+              </tr>
+              <tr class="outlookfix">
+                <td align="left" valign="top"><custom type="content" name="Block_02"></td>
+              </tr>
+              <tr class="outlookfix">
+                <td align="left" valign="top"><custom type="content" name="Block_03"></td>
+              </tr>
+              <tr class="outlookfix">
+                <td align="left" valign="top"><custom type="content" name="Block_04"></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" bgcolor="#f5f5f5" style="padding:20px 20px 20px 20px;" class="padd_lr_15"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="left" valign="top" style="padding-bottom:25px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" class="FullWidth">
+                          <tr>
+                            <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" align="center">
+                                <tr>
+                                  <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="center" valign="top" class="drop1"><a href="https://www.facebook.com/BootsUK/%%=v(@Tracking_Code)=%%" alias="Facebook" title="Facebook" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_Facebook.png" width="25" height="25" alt="Facebook" title="Facebook" border="0" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;" class="social_icon_resize" /></a></td>
+                                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; color:#333333; font-weight:bold; padding-left:4px; padding-right:8px;" class="social_text2"><a href="https://www.facebook.com/BootsUK/%%=v(@Tracking_Code)=%%" alias="Facebook" title="Facebook" target="_blank" style="text-decoration:none; color:#333333;font-size:12px;" class="font_11">Add us</a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="left" valign="top" class="social_twitter_block2"><table border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="center" valign="top" class="drop1"><a href="https://twitter.com/BootsUK%%=v(@Tracking_Code)=%%" alias="Twitter" title="Twitter" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_Twitter.png" width="25" height="25" alt="Twitter" title="Twitter" border="0" style="display:block;font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;" class="social_icon_resize"/></a></td>
+                                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; color:#333333; font-weight:bold; padding-left:6px; padding-right:8px;" class="social_text2"><a href="https://twitter.com/BootsUK%%=v(@Tracking_Code)=%%" alias="Twitter" title="Twitter" target="_blank" style="text-decoration:none; color:#333333;font-size:12px;" class="font_11">Follow us</a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="left" valign="top" class="social_youtube_block2"><table border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="center" valign="top" class="drop1"><a href="http://www.youtube.com/boots%%=v(@Tracking_Code)=%%" alias="Youtube" title="Youtube" target="_blank" style="text-decoration:none;" class="font_14"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_YouTube.png" width="25" height="25" alt="YouTube" title="YouTube" border="0" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;" class="social_icon_resize"/></a></td>
+                                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif;color:#333333; font-weight:bold; padding-left:5px; padding-right:8px;" class="social_text2"><a href="http://www.youtube.com/boots%%=v(@Tracking_Code)=%%" alias="Youtube" title="Youtube" target="_blank" style="text-decoration:none; color:#333333;font-size:12px;" class="font_11">Watch us</a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="left" valign="top" class="social_instaram_block2"><table border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="center" valign="top" class="drop1"><a href="https://www.instagram.com/BootsUK/%%=v(@Tracking_Code)=%%" alias="Instagram" title="Instagram" target="_blank" style="text-decoration:none;" class="font_14"><img src="http://image.emails.boots.com/lib/fe8f12717d62057f7d/m/3/Boots_Instagram_Footer_logo.png" width="25" height="25" alt="Instagram" title="Instagram" border="0" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;" class="social_icon_resize"/></a></td>
+                                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif;color:#333333; font-weight:bold; padding-left:5px; padding-right:8px;" class="social_text2"><a href="https://www.instagram.com/BootsUK/%%=v(@Tracking_Code)=%%" alias="Instagram" title="Instagram" target="_blank" style="text-decoration:none; color:#333333;font-size:12px;" class="font_11">Follow us</a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="left" valign="top" class="social_pinterest_block2"><table border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td align="center" valign="top" class="drop1"><a href="http://www.pinterest.com/BootsOfficial/%%=v(@Tracking_Code)=%%" alias="Pinterest" title="Pinterest" target="_blank" style="text-decoration:none;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_Pinterest.png" width="25" height="25" alt="Pinterest" title="Pinterest" border="0" style="display:block; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;" class="social_icon_resize"/></a></td>
+                                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; color:#333333; font-weight:bold; padding-left:5px;" class="social_text2"><a href="http://www.pinterest.com/BootsOfficial/%%=v(@Tracking_Code)=%%" alias="Pinterest" title="Pinterest" target="_blank" style="text-decoration:none; color:#333333;font-size:12px;" class="font_11">Pin us</a></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                      <td align="right" valign="middle" class="nomobile"><table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" valign="middle" style="font-size:0%; line-height:100%;"><a href="http://www.boots.com/en/Help/%%=v(@Tracking_Code)=%%" alias="Help" target="_blank" title="Help" style="text-decoration:none; color:#333333;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_chevron.png" width="7" height="10" alt="" title="Help" border="0" style="display:block;"/></a></td>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333; font-weight:bold; padding-left:5px; padding-right:18px;"><a href="http://www.boots.com/en/Help/%%=v(@Tracking_Code)=%%" alias="Help" title="Help" target="_blank" style="text-decoration:none; color:#333333;">Help</a></td>
+                            <td align="left" valign="middle" style="font-size:0%; line-height:100%;"><a href="https://www.boots.com/store-locator%%=v(@Tracking_Code)=%%" alias="Store locator" title="Store locator" target="_blank" style="text-decoration:none; color:#333333;"><img src="http://image.s6.exacttarget.com/lib/fe8f12717d67017f72/m/8/20141203_Boots_chevron.png" width="7" height="10" alt="" title="Store locator" border="0" style="display:block;"/></a></td>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333; font-weight:bold; padding-left:5px;"><a href="https://www.boots.com/store-locator%%=v(@Tracking_Code)=%%" alias="Store locator" title="Store locator" target="_blank" style="text-decoration:none; color:#333333;">Store locator</a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr class="outlookfix">
+                <td align="left" valign="top"><custom type="content" name="Footer"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<custom name="opencounter" type="tracking">
+<img src="http://pixel.inbox.exacttarget.com/pixel.gif?r=cd6a7b30f798f70f48b76a464fa8629e5111d93b&template=%%=v(@Attribute1)=%%"  width="0" height="0" />
+</body>
