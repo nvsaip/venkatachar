@@ -1,86 +1,59 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#b7b7b7">
                     <tbody>
                      <tr>
-                      <td align="center" valign="top" style="padding: 0px 30px 30px 30px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <td align="center" valign="top" style="padding: 30px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tbody>
                          <tr>
-                          <td align="center" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 40px; line-height: 50px; color: #0074a6; font-weight: bold;">qw</td>
-                         </tr>
-                         <tr>
-                          <td align="center" valign="top" width="1" height="30">&nbsp;</td>
-                         </tr>
-                         <tr>
-                          <td align="center" valign="top"><table border="0" cellspacing="0" cellpadding="0" align="left" class="container">
+                          <td align="center" valign="top"><table border="0" cellspacing="0" cellpadding="0" align="center">
                             <tbody>
                              <tr>
-                              <td align="center" valign="middle" class="drop"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tbody>
-                                 <tr>
-                                  <td align="center" valign="middle" class="mob_center_img"><img src="http://via.placeholder.com/70X70" alt="Users" style="display:block; width: 70px; font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 15px; line-height: 20px; color: #0074a6; font-weight: bold;" width="70" border="0"></td>
-                                 </tr>
-                                </tbody>
-                               </table></td>
-                              <td align="center" valign="top" width="20" height="20" class="drop">&nbsp;</td>
-                              <td align="left" valign="middle" class="drop"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tbody>
-                                 <tr>
-                                  <td align="left" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 18px; line-height: 23px; color: #000001; font-weight: normal; padding-bottom: 20px;" class="mob_content_center">efgffgffdgf</td>
-                                 </tr>
-                                 <tr>
-                                  <td align="left" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 18px; line-height: 23px; color: #000001; font-weight: normal; padding-bottom: 20px;" class="mob_content_center">efgffgffdgf</td>
-                                 </tr>
-                                 <tr>
-                                  <td align="left" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 18px; line-height: 23px; color: #000001; font-weight: normal;" class="mob_content_center">efgffgffdgf</td>
-                                 </tr>
-                                </tbody>
-                               </table></td>
+                              <td align="center" valign="top"><img src="http://via.placeholder.com/102X34" alt="Download on the App Store" style="display:block; width: 102px; font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 13px; line-height: 17px; color: #333333; font-weight: bold;" width="102" border="0"></td>
+                              <td align="center" valign="top" width="15" height="10">&nbsp;</td>
+                              <td align="center" valign="top"><img src="http://via.placeholder.com/111X34" alt="GET IT ON Google Play" style="display:block; width: 111px; font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 13px; line-height: 17px; color: #333333; font-weight: bold;" width="111" border="0"></td>
                              </tr>
                             </tbody>
                            </table></td>
                          </tr>
                          <tr>
-                          <td align="center" valign="top" width="1" height="30">&nbsp;</td>
+                          <td align="center" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 14px; line-height: 19px; color: #000001; font-weight: normal; padding-top: 10px;">Download the Barclays mobile app</td>
+                         </tr>
+                        </tbody>
+                       </table></td>
+                     </tr>
+                     <tr>
+                      <td align="left" valign="top" style="padding: 0px 30px 30px 30px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                         <tr>
+                          <td align="left" valign="top">&nbsp;</td>
                          </tr>
                          <tr>
-                          <td align="center" valign="top"><table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
-                            <tr>
-                             <td valign="middle" align="center"><table style="background-color:#ffffff; border-radius:0px; overflow:hidden; mso-padding-alt:0px 0px 0px 0px; border: 2px solid #0074a6;" width="55%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" class="container">
-                               <tr>
-                                <td valign="top" align="center"><table width="100%" cellspacing="0" cellpadding="0" border="0">
-                                  <tr>
-                                   <td style="text-align:center; font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 16px; line-height: 16px; font-weight: bold; color: #0074a6; padding: 18px 13px 16px 17px; white-space: nowrap;" width="100%" align="center"><a href="#" target="_blank" alias="" title="" style="color: #0074a6; text-decoration:none; width:100%;"><span style="display:inline-block; color: #0074a6; white-space: nowrap;">hjkh</span></a></td>
-                                  </tr>
-                                 </table></td>
-                               </tr>
-                              </table></td>
-                            </tr>
-                           </table></td>
+                          <td align="left" valign="top">&nbsp;</td>
                          </tr>
                          <tr>
-                          <td align="center" valign="top" width="1" height="30">&nbsp;</td>
+                          <td align="left" valign="top">&nbsp;</td>
                          </tr>
                          <tr>
-                          <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <td align="left" valign="top">&nbsp;</td>
+                         </tr>
+                         <tr>
+                          <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" align="left">
                             <tbody>
                              <tr>
-                              <td align="left" valign="top" class="drop"><table border="0" cellspacing="0" cellpadding="0" class="container">
-                                <tbody>
-                                 <tr>
-                                  <td align="center" valign="top" class="mob_center_img"><img src="http://via.placeholder.com/200X70" alt="Partner Logo" style="display:block; width: 200px; font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 15px; line-height: 20px; color: #0074a6; font-weight: bold;" width="200" border="0"></td>
-                                 </tr>
-                                </tbody>
-                               </table></td>
-                              <td align="center" valign="top" width="20" height="20" class="drop">&nbsp;</td>
-                              <td align="left" valign="middle" class="drop"><table border="0" cellspacing="0" cellpadding="0" align="right" class="container">
-                                <tbody>
-                                 <tr>
-                                  <td align="center" valign="top" class="mob_center_img"><img src="http://via.placeholder.com/180X60" alt="Marketing Logo" style="display:block; width: 180px; font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 15px; line-height: 20px; color: #0074a6; font-weight: bold;" width="180" border="0"></td>
-                                 </tr>
-                                </tbody>
-                               </table></td>
+                              <td align="left" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 14px; line-height: 19px; color: #000001; font-weight: normal;" class="drop"><a href="#" target="_blank" alias="" title="" style="color: #000001; text-decoration:none;">Left</a></td>
+                              <td align="center" valign="top" width="30" height="20" class="drop">&nbsp;</td>
+                              <td align="left" valign="top" style="font-family: Arial, sans-serif, Helvetica, 'Helvetica Neue'; font-size: 14px; line-height: 19px; color: #000001; font-weight: normal;" class="drop"><a href="#" target="_blank" alias="" title="" style="color: #000001; text-decoration:none;">Right</a></td>
                              </tr>
                             </tbody>
                            </table></td>
+                         </tr>
+                         <tr>
+                          <td align="left" valign="top">&nbsp;</td>
+                         </tr>
+                         <tr>
+                          <td align="left" valign="top">&nbsp;</td>
+                         </tr>
+                         <tr>
+                          <td align="left" valign="top">&nbsp;</td>
                          </tr>
                         </tbody>
                        </table></td>
